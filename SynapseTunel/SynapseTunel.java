@@ -5,7 +5,7 @@
  * O administrador conecta na porta 3282
  * Comandos do Administrador:
  *    lsm         - lista as maquinas clientes conectadas
- *    connect:1   - conecta na maquina de índice 1, por exemplo.
+ *    connect:1   - conecta na maquina de indice 1, por exemplo.
  *    disconnect  - desconecta da maquina cliente
  *    remove:1    - desconecta e remove maquina cliente
  *    info        - retorna informacao da conexao atual
